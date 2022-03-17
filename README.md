@@ -17,8 +17,8 @@ python3 RestoreData.py
 
 ## Features
 
-`passed` login - System.py
-`passed` check_password - System.py
+`passed` login - System.py  
+`passed` check_password - System.py  
 `failed` change_grade - Staff.py
 ```sh
 self.users[user]['courses'][course][assignment]['grade'] = 0
@@ -28,7 +28,7 @@ self.users[user]['courses'][course][assignment]['grade'] = 0
 ```sh
 self.users[user]['courses'][course][assignment]['grade'] = grade
 ```
-`passed` create_assignment - Staff.py
+`passed` create_assignment - Staff.py  
 `failed` add_student - Professor.py
 ```sh
 self.users[self.name]['courses'][course] = assignments
@@ -38,7 +38,7 @@ self.users[self.name]['courses'][course] = assignments
 ```sh
 self.users[name]['courses'][course] = assignments
 ```
-`passed` drop_student - Professor.py
+`passed` drop_student - Professor.py  
 `failed` submit_assignment - Student.py
 ```sh
 due_date = self.all_courses['comp_sci']['assignments'][assignment_name]["due_date"]
