@@ -1,6 +1,5 @@
 import pytest
 import System
-import RestoreData
 
 def test_login(grading_system):
     name = 'saab'
